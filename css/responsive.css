@@ -1,0 +1,353 @@
+@media screen and (min-width:1400px){
+  main .container {
+      width: 45%;
+  }
+
+
+
+  main .inicio {
+      height: 600px;
+      background-size: 1000px;
+      background-position: 50% 50% ;
+  }
+
+
+
+  .inicio .titulo {
+      font-size: 60px;
+  }
+
+
+
+  .container {
+      font-size: 24px;
+  }
+
+  .container b{
+      font-size: 18px;
+     
+  }
+
+
+
+  .container .botao1{
+    margin-right: 50px;
+    border: none;
+
+}
+
+.container .turtorial{
+    background-color: rgba(0, 0, 0, 0.562);
+    color: white;
+    border: none;
+    height: 60px;
+    width: 150px;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+}
+
+
+/*-------------------1400 PIXELS OU MENOS-----------------------------*/
+
+
+@media screen and (max-width:1399px){
+    main .container {
+        width: 45%;
+    }
+
+    main .inicio {
+        height: 400px;
+        background-size: 800px;
+        background-position: 50% 50% ;
+    }
+
+    .container .turtorial{
+        background-color: rgba(0, 0, 0, 0.562);
+        color: white;
+        border: none;
+        height: 45px;
+        width: 100px;
+        font-size: 11px;
+        margin-top: 40px;
+    }
+
+    .container {
+        font-size: 18px;
+    }
+
+    .mais {
+        font-size: 22px;
+    }
+
+}
+
+
+
+/*------------------------1200 PIXELS OU MENOS-----------------------*/
+
+
+@media screen and (max-width:1220px){
+    main .container {
+        width: 50%;
+        margin-left: 25px;
+    }
+
+    main .inicio {
+        height: 500px;
+        background-size: 100%;
+        background-position: 50% 50% ;
+
+    }
+
+    .container .turtorial{
+        background-color: rgba(0, 0, 0, 0.562);
+        color: white;
+        border: none;
+        height: 45px;
+        width: 120px;
+        font-size: 11px;
+        margin-top: 50px;
+    }
+
+
+}
+
+
+/*------------------------1000 PIXELS OU MENOS------------------------*/
+
+
+
+@media screen and (max-width:1000px){
+    main .container {
+        width: 60%;
+        margin-left: 20px;
+    }
+}
+
+
+/*------------------------800 PIXELS OU MENOS-------------------------*/
+
+
+@media screen and (max-width:800px){
+    main .container {
+        width: 60%;
+        margin-left: 22px;
+    }
+
+    main .inicio {
+        background-size: cover;
+        background-position: 50% 50% ;
+    }
+
+
+    .inicio .titulo {
+        font-size: 32px;
+    }
+  
+  
+  
+    .container {
+        font-size: 15px;
+    }
+
+    .container b{
+        font-size: 12px;
+    }
+
+    .container .estrela{
+        font-size: 12px;
+    }
+
+    .container .tempo{
+        font-size: 12px;
+    }
+
+    .container .turtorial{
+        background-color: rgba(0, 0, 0, 0.562);
+        color: white;
+        border: none;
+        height: 35px;
+        width: 80px;
+        font-size: 9px;
+        margin-top: 20px;
+    }
+
+    .mais {
+        font-size: 16px;
+    }
+
+
+}
+
+
+/*-------------------------600 PIXELS OU MENOS------------------------*/
+
+@media screen and (max-width:600px){
+    
+    .container .logo{
+        font-size: 34px;
+
+    }
+    
+    main .container {
+        
+        margin-left: 15px;
+        background-size: cover;
+    }
+
+    main .inicio {
+        height: 400px;
+        background-size: cover;
+        background-position: 50% 50% ;
+    }
+
+    .inicio .titulo {
+        font-size: 30px;
+    }
+  
+  
+  
+    .container {
+        font-size: 14px;
+    
+    }
+
+    .container .estrela{
+        font-size: 10px;
+    }
+
+    .container .tempo{
+        font-size: 11px;
+    }
+
+    .container b{
+        font-size: 11px;
+    }
+
+    .mais {
+        font-size: 14px;
+    }
+
+    .container .turtorial{
+        background-color: rgba(0, 0, 0, 0.562);
+        color: white;
+        border: none;
+        height: 35px;
+        width: 80px;
+        font-size: 9px;
+        margin-top: 20px;
+    }
+
+
+}
+
+
+/*-----------------------500 PIXELS OU MENOS--------------------------*/
+
+@media screen and (max-width:600px){
+    
+    .container .logo{
+        font-size: 30px;
+    }
+
+    .container NAV A{
+        font-size: 12px;
+    }
+
+
+
+
+
+    
+    main .container {
+        width: 70%;
+        font-size: 12PX;
+        margin-left: 15px;
+    }
+
+    main .inicio {
+        height: 400px;
+        background-size: cover;
+        background-position: 50% 50% ;
+    }
+
+    .inicio .titulo {
+        font-size: 30px;
+    }
+  
+  
+  
+    .container {
+        font-size: 14px;
+    
+    }
+    .container .avaliacao{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .estrela{
+        font-size: 10px;
+    }
+
+    .container .tempo{
+        font-size: 11px;
+    }
+
+    .container b{
+        font-size: 11px;
+    }
+
+    .mais {
+        font-size: 14px;
+    }
+
+
+    .container .botao1{
+        width: 90%;
+    }
+    .container .turtorial{
+        background-color: rgba(0, 0, 0, 0.562);
+        color: white;
+        border: none;
+        height: 30px;
+        width: 69px;
+        font-size: 8px;
+        margin-top: 12px;
+    }
+
+    .carrosel{
+        zoom: 15%;
+    }
+}
+
+
+/*------------------------400 PIXELS OU MENOS-------------------------*/
+
+@media screen and (max-width:600px){
+    .container .logo {
+        font-size: 25px;
+    }
+    .container nav a{
+        font-size: 10px;
+    }
+
+    main .container {
+        font-size: 11px;
+        margin-top: 100px;
+    }
+
+    .container .titulo{
+        font-size: 22px;
+    }
+
+
+    .mais{
+        font-size: 12px;
+    }
+
+
+
+}
